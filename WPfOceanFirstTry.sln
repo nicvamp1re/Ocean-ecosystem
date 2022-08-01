@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPfOceanFirstTry", "WPfOceanFirstTry.csproj", "{DD5EA13E-452E-4C1D-BDA1-BD55C5C8CE93}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41A985EE-A01F-4CA6-800E-5165EE93D596} = {41A985EE-A01F-4CA6-800E-5165EE93D596}
+		{E5B0CD14-DB2B-49A4-BFDF-65ACE5960ECA} = {E5B0CD14-DB2B-49A4-BFDF-65ACE5960ECA}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcosystemDisplayLib", "..\EcosystemDisplayLib\EcosystemDisplayLib.csproj", "{E5B0CD14-DB2B-49A4-BFDF-65ACE5960ECA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OceanEcosystemLib", "..\OceanEcosystemLib\OceanEcosystemLib.csproj", "{41A985EE-A01F-4CA6-800E-5165EE93D596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OceanBusinessLogic", "..\OceanBusinessLogic\OceanBusinessLogic.csproj", "{79117610-6BD7-40FF-B08D-477A915B07FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcosystemInterfacesWPF", "..\EcosystemInterfacesWPF\EcosystemInterfacesWPF.csproj", "{6723D17C-E748-46D0-84A1-57590926C8BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EcosystemInterfaces", "..\EcosystemInterfaces\EcosystemInterfaces.csproj", "{1A0D5FAB-D3E5-4E06-906A-B49EAE0D7CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD5EA13E-452E-4C1D-BDA1-BD55C5C8CE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5EA13E-452E-4C1D-BDA1-BD55C5C8CE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5EA13E-452E-4C1D-BDA1-BD55C5C8CE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5EA13E-452E-4C1D-BDA1-BD55C5C8CE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B0CD14-DB2B-49A4-BFDF-65ACE5960ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B0CD14-DB2B-49A4-BFDF-65ACE5960ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B0CD14-DB2B-49A4-BFDF-65ACE5960ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B0CD14-DB2B-49A4-BFDF-65ACE5960ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A985EE-A01F-4CA6-800E-5165EE93D596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A985EE-A01F-4CA6-800E-5165EE93D596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A985EE-A01F-4CA6-800E-5165EE93D596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A985EE-A01F-4CA6-800E-5165EE93D596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79117610-6BD7-40FF-B08D-477A915B07FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79117610-6BD7-40FF-B08D-477A915B07FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79117610-6BD7-40FF-B08D-477A915B07FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79117610-6BD7-40FF-B08D-477A915B07FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6723D17C-E748-46D0-84A1-57590926C8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6723D17C-E748-46D0-84A1-57590926C8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6723D17C-E748-46D0-84A1-57590926C8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6723D17C-E748-46D0-84A1-57590926C8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0D5FAB-D3E5-4E06-906A-B49EAE0D7CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0D5FAB-D3E5-4E06-906A-B49EAE0D7CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0D5FAB-D3E5-4E06-906A-B49EAE0D7CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0D5FAB-D3E5-4E06-906A-B49EAE0D7CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3FEB8B-D94B-4920-8283-1CFFC215705D}
+	EndGlobalSection
+EndGlobal

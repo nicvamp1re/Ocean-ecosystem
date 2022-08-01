@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPfOceanFirstTry.OceanWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPfOceanFirstTry"
+        mc:Ignorable="d"
+        Title="Ocean" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height = "*" />
+            <RowDefinition Height = "0.5*" />
+            <RowDefinition Height = "*" />
+        </Grid.RowDefinitions>
+            <TextBox x:Name="IterationsTextBox" Text="100" Grid.Column="1" HorizontalAlignment="Stretch" Height="auto" Width="auto" MaxHeight="30" MaxWidth="150" Margin="0, 0, 0, 0"/>
+            <TextBox x:Name="TimeTextBox" Grid.Column="1" Text="100" Grid.Row="2" HorizontalAlignment="Stretch" Height="auto" Width="auto" MaxHeight="30" MaxWidth="150" Margin="0, 0, 0, 0"/>
+        <Label Name="IterationLabel" Content="Enter Amount of iterations here!"  Grid.Column="1" Grid.Row="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalAlignment="Center" HorizontalAlignment ="Center"  Margin ="0, 50, 0, 0 " />
+        <Label Name="TimeLabel" Content="Enter Time needed for one iteration!"  Grid.Column="1" Grid.Row="2" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalAlignment="Center" HorizontalAlignment ="Center"  Margin ="0, 50, 0, 0 " />
+
+        <Button Name="RunButton" Content="Run Ocean!" Grid.Column="1" Grid.Row ="1" Click="RunButton_Click" />
+        
+        <Viewbox Name="OceanViewbox" Stretch="Uniform" Grid.Column="0" Grid.RowSpan="3">
+            <Canvas Name="OceanCanvas" Grid.Column="0" Grid.RowSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center" ></Canvas>
+        </Viewbox>
+    </Grid>
+</Window>
